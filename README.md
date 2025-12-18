@@ -28,8 +28,7 @@ The diagram represents enterprise systems as elements orbiting a central busines
 ## Documentation
 
 - 📐 Diagram conventions: [docs/conventions.md](docs/conventions.md)
-- 🧭 Practical examples: [docs/examples.md](docs/examples.md)
-- 
+- 🧭 Canonical example: [docs/examples.md](docs/examples.md)
 
 ## When to use it
 

@@ -40,6 +40,48 @@ The **Business Core** represents the primary domain, capability, or value propos
 * A database
 * A technical component
 
+
+## Extended Business Core
+
+### Definition
+In some domains, a single business capability is implemented through multiple tightly coupled systems. In these cases, the diagram uses the concept of an **Extended Business Core**.
+
+An Extended Business Core represents a **single conceptual core** composed of multiple internal components that together deliver the organization’s primary value.
+
+### Conventions
+- There is still **only one Business Core**
+- The core may contain **internal components or sub-systems**
+- Internal components do **not orbit** the core
+- Internal components are not connected by arrows
+
+> **A core may be internally composed, but it must be externally perceived as one.**
+
+### What qualifies as a core component
+A system qualifies as part of the Extended Business Core if, without it, the organization would no longer be able to define, structure, or deliver its primary offering.
+
+Typical examples include:
+- Product or Asset Information Management (PIM)
+- Form or Schema Management
+- Template or Document Generation
+
+### Visual Guidance
+The Extended Business Core may be represented as:
+- A single large core with a composite label, or
+- A core containing visually grouped internal components
+
+The choice depends on diagram complexity and audience familiarity.
+
+### Decision Helper: Core vs Orbit
+
+When deciding whether a system belongs to the Business Core or the Orbit, use the following question:
+
+> **If this system disappears, does the business still know what it is selling?**
+
+- **No** → Business Core (or Core Component)
+- **Yes** → Orbit
+
+This heuristic intentionally focuses on **business identity and value**, not technical dependencies or operational convenience.
+
 ---
 
 ## 3. Orbit
@@ -180,3 +222,5 @@ If those details are required, complementary diagrams should be used.
 
 These conventions define **version 1** of the Enterprise Orbit Diagram.
 Future versions may expand visual patterns while preserving the core narrative principles.
+
+## Method Evolution
