@@ -17,13 +17,28 @@ Existing documentation is often:
 The Enterprise Orbit Diagram provides a single, business-centric view of enterprise software assets, enabling clearer conversations and better strategic decisions.
 
 
-## What is it?
+## What is the Enterprise Orbit Diagram?
 
 The diagram represents enterprise systems as elements orbiting a central business core.
 
 - The core represents the most critical business domain or capability.
 - Orbiting elements represent supporting, adjacent, or external software systems.
 - Visual distance and grouping help communicate relevance, dependency, and strategic importance.
+
+## Documentation
+
+- 📐 Diagram conventions: [docs/conventions.md](docs/conventions.md)
+- 🧭 Practical examples: [docs/examples.md](docs/examples.md)
+- 
+
+## When to use it
+
+- Enterprise discovery and assessment
+- Modernization and legacy transformation discussions
+- Executive and stakeholder presentations
+- Alignment between business and technology teams
+- Early documentation in low-maturity environments
+
 
 ## What it is NOT
 
@@ -34,14 +49,9 @@ The Enterprise Orbit Diagram is not:
 
 Its purpose is strategic clarity, not technical precision.
 
-## When to use it
+## Example
 
-- Enterprise discovery and assessment
-- Modernization and legacy transformation discussions
-- Executive and stakeholder presentations
-- Alignment between business and technology teams
-- Early documentation in low-maturity environments
-
+A basic example of the Enterprise Orbit Diagram can be found in the `examples/` folder.
 
 ## Status
 
@@ -63,8 +73,3 @@ Created and maintained by Edwin Castañeda.
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 You are free to use, adapt, and share this model, provided appropriate credit is given to the original author.
-
-## Example
-
-A basic example of the Enterprise Orbit Diagram can be found in the `examples/` folder.
-
