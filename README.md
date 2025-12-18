@@ -57,3 +57,9 @@ Community feedback and contributions are welcome.
 ## Author
 
 Created and maintained by Edwin Castañeda.
+
+## License
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to use, adapt, and share this model, provided appropriate credit is given to the original author.
