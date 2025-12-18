@@ -1,106 +1,76 @@
-# Enterprise Orbit Diagram — Examples
+# Enterprise Orbit Diagram — Canonical Example
 
-This document provides **illustrative examples** of how to apply the Enterprise Orbit Diagram (EOD) conventions in real-world contexts.
+This document presents the **canonical example** of the Enterprise Orbit Diagram (EOD).
 
-The purpose of these examples is not to prescribe a single correct diagram, but to demonstrate **how narrative intent is translated into visual structure**.
+The purpose of this example is to provide a **single, clear reference implementation** of the method. It demonstrates how narrative intent, positioning, and grouping work together to communicate enterprise structure to non-technical and strategic audiences.
+
+This example should be understood as **illustrative, not prescriptive**. Organizations may adapt the diagram to their context while respecting the core conventions.
 
 ---
 
-## Example 1: Core Business Platform
+## Canonical Example: Enterprise Orbit Diagram
 
 ### Context
 
-An organization whose primary value lies in managing and operating a core business platform.
+An organization needs to explain its enterprise software landscape to business stakeholders as an initial discovery artifact. Existing documentation is either missing or overly technical, making it difficult to understand which systems truly matter.
+
+The goal of this diagram is to create a **shared mental model** of the organization’s technology assets, highlighting what is core, what is supporting, and what is merely enabling.
+
+---
 
 ### Business Core
 
-* **Core Business Platform**
+At the center of the diagram is the **Business Core**.
 
-This represents the main domain capability that differentiates the company.
+This represents the primary domain capability that defines the organization’s value proposition. It is not a system, but the business concept around which all technology exists.
+
+---
 
 ### Orbiting Systems
 
-* CRM
-* ERP
-* Data & Analytics Platform
-* Document Management System
+The orbit contains the primary enterprise systems that directly interact with and support the Business Core. These systems are positioned based on **business criticality**, not technical layering.
 
-These systems are positioned closer to the core because they directly support and shape the primary business capability.
+Examples include:
 
-### Cross-Cutting Systems (Not Grouped)
+* Core operational platforms
+* Systems of record closely tied to the domain
+* Strategic applications that shape how the business operates
+
+Systems positioned closer to the core are harder to replace and more tightly coupled to business outcomes.
+
+---
+
+### Cross-Cutting and External Systems
+
+Some systems enable the organization without defining its business model. These systems are intentionally left **outside any grouping** and placed further from the core.
+
+Typical examples include:
 
 * Identity & Access Management
+* Payment Gateways
 * Email & Notifications
-* Payment Gateway
 * External Partners
 
-These systems enable operations but do not define the business model. They remain ungrouped and positioned further from the core.
-
-### Narrative Outcome
-
-The diagram quickly communicates which systems are **strategic**, which are **supporting**, and which are **enabling but replaceable**.
+Their placement communicates enablement rather than differentiation.
 
 ---
 
-## Example 2: Workflow-Oriented Grouping
-
-### Context
-
-An enterprise with a clearly defined end-to-end business workflow.
-
-### Business Core
-
-* **Primary Business Domain**
-
-### Grouped Systems (Workflow Narrative)
-
-A dashed or dotted grouping highlights systems that participate in a shared workflow, for example:
-
-* Intake System
-* Validation Engine
-* Case Management System
-* Decision Support Module
-
-The grouping communicates a business process **without modeling it explicitly**.
-
-### Ungrouped Systems
-
-* Identity & Access Management
-* Notifications
-* External Integrations
-
-These remain outside the grouping to avoid overloading the diagram with technical or transversal concerns.
-
 ### Narrative Outcome
 
-Stakeholders understand *where value flows* without requiring BPMN or sequence diagrams.
+Without reading a single technical specification, stakeholders can answer questions such as:
+
+* What capabilities define the business?
+* Which systems are critical versus replaceable?
+* Where does the organization’s complexity truly live?
+
+The diagram acts as a **conversation starter**, not a technical contract.
 
 ---
 
-## Example 3: Modernization Scenario
+### Visual Reference
 
-### Context
-
-An organization assessing modernization or transformation opportunities.
-
-### Visual Cues
-
-* Legacy systems placed further from the core
-* Modern or strategic systems positioned closer
-* External or SaaS solutions clearly identified
-
-### Narrative Outcome
-
-The diagram supports conversations such as:
-
-* What systems are candidates for replacement?
-* Which capabilities must be protected?
-* Where does modernization deliver the most value?
+![Enterprise Orbit Diagram — Canonical Example](diagrams/enterprise-orbit-diagram-example.png)
 
 ---
 
-## Key Takeaway
-
-> The Enterprise Orbit Diagram is most effective when used as a **conversation artifact**, not as a definitive architectural blueprint.
-
-Multiple diagrams may coexist for the same organization, each telling a different strategic story.
+This canonical example represents **version 1** of the Enterprise Orbit Diagram in practice. Future versions may introduce additional scenarios while preserving this reference model.
