@@ -170,16 +170,60 @@ These systems communicate enablement, not differentiation.
 
 ## 7. Connections and Flows
 
-### Convention
+Connections are **optional visual elements** used to express **business-level flows of value or influence** between the Business Core and surrounding systems.
 
-* No arrows by default
-* If arrows are used:
+A connection **does not** represent:
+- Technical integrations
+- APIs or events
+- Execution order
+- System dependencies
 
-    * Keep them minimal
-    * Use them narratively
-    * Avoid exhaustive representations
+The diagram remains valid **with or without connections**.
 
-The diagram favors **understanding over completeness**.
+---
+
+### Connection Semantics
+
+A connection represents **how business information, decisions, or outcomes move or influence other systems**.
+
+> **Connections describe business meaning, not system mechanics.**
+
+---
+
+### Allowed Connection Types
+
+Only the following connection types are permitted:
+
+- **Business Core → Orbit**  
+  Indicates that the core produces information, decisions, or outcomes consumed by orbiting systems.
+
+- **Orbit → Business Core**  
+  Indicates that an orbiting system provides inputs that initiate or modify the core business state.
+
+- **Orbit ↔ Orbit (restricted)**  
+  Allowed only when the flow is essential to understanding the business narrative.  
+  Excessive orbit-to-orbit connections should be avoided.
+
+---
+
+### Prohibited Connections
+
+The following connections must **not** be represented:
+
+- Connections involving **Cross-Cutting or External Systems**
+- Connections between **internal components of the Business Core**
+- Bidirectional connections used by default
+- Dense or network-like connection patterns
+
+If such relationships need to be explained, a **separate technical or integration diagram** should be used.
+
+---
+
+### Visual Guidance
+
+- Connections should be visually simple
+- No technical labels should be attached
+- Connections should support the narrative, not dominate it
 
 ---
 
