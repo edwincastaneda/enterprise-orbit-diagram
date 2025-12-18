@@ -1,5 +1,10 @@
 # Enterprise Orbit Diagram
 
+![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
+![Status](https://img.shields.io/badge/status-canonical%20v1-blue)
+
+
+
 The Enterprise Orbit Diagram is a strategic visualization model designed to help organizations understand, communicate, and reason about their software assets around a central business core.
 
 It is especially useful in early discovery phases, low-documentation environments, and modernization initiatives where existing system landscapes are complex, fragmented, or poorly understood.
