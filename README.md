@@ -33,7 +33,6 @@ The diagram represents enterprise systems as elements orbiting a central busines
 ## Documentation
 
 - 📐 Diagram conventions: [docs/conventions.md](docs/conventions.md)
-- 🧭 Canonical example: [docs/examples.md](docs/examples.md)
 
 ## When to use it
 
@@ -55,7 +54,9 @@ Its purpose is strategic clarity, not technical precision.
 
 ## Example
 
-A basic example of the Enterprise Orbit Diagram can be found in the `examples/` folder.
+A basic example of the Enterprise Orbit Diagrams can be found in the `docs/diagrams/` folder.
+
+- 🧭 Canonical example (Basic): [docs/examples.md](docs/examples.md)
 
 ## Status
 

@@ -131,6 +131,24 @@ Connections should answer:
 - Who consumes outcomes?
 - Where does information *matter*, not travel?
 
+### Arrow Semantics
+
+The diagram uses a **limited set of arrow types**, each with a specific narrative meaning:
+
+- **Solid Arrow**  
+  Represents a **primary business dependency**.  
+  Indicates that the target component is a direct outcome or responsibility of the source.
+
+- **Dashed Arrow**  
+  Represents a **supporting or enabling dependency**.  
+  Used when a component influences or constrains another without owning the outcome.
+
+- **Thin / Subtle Arrow**  
+  Represents **observational or consumptive relationships**.  
+  Used for analytics, reporting, or passive usage of business results.
+
+Only these arrow types are allowed in canonical diagrams.
+
 ---
 
 ## 8. Color Usage
@@ -142,20 +160,24 @@ Fixed semantic colors are preferred for consistency:
 - **Light Blue**  
   Business Core
 
-- **Green / Lime Green**  
-  Core Components and Orbiting Systems
+- **Lime Green**  
+  Extended Core Components
 
 - **Yellow**  
-  Narrative Groupings (dashed or soft boundaries)
+  Orbiting Systems over Narrative Groupings (dashed boundaries)
 
 - **Gray**  
-  Cross-cutting and External Systems
+  Cross-cutting Systems
+
+- **Soft Red**  
+  External Systems
+
+- **Soft Orange**  
+  Transitional or legacy elements (when explicitly needed)
 
 - **White**  
   Neutral space / canvas
 
-- **Soft Pink (optional)**  
-  Transitional or legacy elements (when explicitly needed)
 
 Rules:
 - Color must never be overloaded with multiple meanings
