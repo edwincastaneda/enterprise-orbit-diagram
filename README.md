@@ -94,7 +94,7 @@ Community feedback and contributions are welcome.
 
 ## Author
 
-Created and maintained by Edwin Castañeda.
+Created and maintained by [Edwin Castañeda](https://gt.linkedin.com/in/edwincasta).
 
 ## License
 
