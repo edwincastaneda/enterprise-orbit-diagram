@@ -138,7 +138,7 @@ The diagram uses a **limited set of arrow types**, each with a specific narrativ
   Used when a component influences or constrains another without owning the outcome.
 
 - **Thin / Subtle Arrow**  
-  Represents **observational or consumptive relationships**.  
+  Represents **observational or consumptive relationships** (Passive Dependency).  
   Used for analytics, reporting, or passive usage of business results.
 
 Only these arrow types are allowed in canonical diagrams.
