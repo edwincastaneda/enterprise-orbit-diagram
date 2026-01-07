@@ -36,7 +36,7 @@ The diagram represents enterprise systems as elements orbiting a central busines
 - Orbiting elements represent supporting, adjacent, or external software systems.
 - Visual distance and grouping help communicate relevance, dependency, and strategic importance. Distance is never aesthetic: it conveys coupling strength, replacement cost, and long-term strategic weight.
 
-## Documentation
+## Guide & Documentation
 
 - 📐 [Diagram conventions](docs/conventions.md)
 
