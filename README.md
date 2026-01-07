@@ -7,6 +7,10 @@
 
 The Enterprise Orbit Diagram is a strategic visualization model designed to help organizations understand, communicate, and reason about their software assets around a central business core.
 
+The diagram is explicitly concerned with **business identity**, not system design.
+
+Its primary question is not how systems are built or connected, but **which systems define who the organization is**, and which merely enable its operation.
+
 It is especially useful in early discovery phases, low-documentation environments, and modernization initiatives where existing system landscapes are complex, fragmented, or poorly understood.
 
 
@@ -21,14 +25,16 @@ Existing documentation is often:
 
 The Enterprise Orbit Diagram provides a single, business-centric view of enterprise software assets, enabling clearer conversations and better strategic decisions.
 
+By grounding the conversation in business meaning rather than technology, the Enterprise Orbit Diagram enables clearer strategic discussions, challenges false assumptions of criticality, and supports better decision-making at executive level.
+
 
 ## What is the Enterprise Orbit Diagram?
 
 The diagram represents enterprise systems as elements orbiting a central business core.
 
-- The core represents the most critical business domain or capability.
+- The core represents the most critical business domain or capability. The Business Core is always singular and represents the irreducible capability without which the organization would no longer recognize what it sells.
 - Orbiting elements represent supporting, adjacent, or external software systems.
-- Visual distance and grouping help communicate relevance, dependency, and strategic importance.
+- Visual distance and grouping help communicate relevance, dependency, and strategic importance. Distance is never aesthetic: it conveys coupling strength, replacement cost, and long-term strategic weight.
 
 ## Documentation
 
@@ -51,6 +57,14 @@ The Enterprise Orbit Diagram is not:
 - A workflow or BPMN model
 
 Its purpose is strategic clarity, not technical precision.
+
+If a representation can be interpreted as a technical architecture diagram, it has crossed the boundary of the Enterprise Orbit Diagram and no longer fulfills its purpose.
+
+--
+
+> The Enterprise Orbit Diagram is a strategic narrative tool.  
+> Clarity of meaning always takes precedence over technical completeness.
+
 
 ## Example
 
