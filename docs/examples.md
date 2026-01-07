@@ -1,20 +1,23 @@
 # Enterprise Orbit Diagram — Canonical Example
 
-This document presents the **canonical example** of the Enterprise Orbit Diagram (EOD).
+This document presents a **canonical example** of the Enterprise Orbit Diagram (EOD).
 
-The purpose of this example is to provide a **single, clear reference implementation** of the method. It demonstrates how narrative intent, positioning, grouping, and visual conventions work together to communicate enterprise structure to non-technical and strategic audiences.
+Its purpose is to serve as a **single reference instance** that demonstrates how the conventions of the Enterprise Orbit Diagram are applied in practice: positioning, grouping, distance, and narrative intent.
 
-This example should be understood as **illustrative, not prescriptive**. Organizations may adapt the diagram to their context while respecting the core conventions.
+This example is **illustrative**, not prescriptive.
+Organizations may adapt the diagram to their context, as long as the core meaning and conventions are preserved.
 
 ---
 
-## Canonical Example: Enterprise Orbit Diagram
-
 ### Context
 
-An organization needs to explain its enterprise software landscape to business stakeholders as an initial discovery artifact. Existing documentation is either missing or overly technical, making it difficult to understand which elements truly define the business versus those that merely support it.
+The diagram represents an organization at an early discovery stage, where existing documentation is limited or overly technical.
 
-The goal of this diagram is to create a **shared mental model** of the organization’s technology landscape, highlighting what is core, what extends the core, and what enables the business.
+The goal is to create a shared mental model that helps business and technology stakeholders understand:
+
+- what defines the business,
+- what directly supports it,
+- and what merely enables its operation.
 
 ---
 
@@ -22,9 +25,9 @@ The goal of this diagram is to create a **shared mental model** of the organizat
 
 At the center of the diagram is the **Business Core**.
 
-This represents the primary business capability that defines the organization’s value proposition. It is not a single system, but a conceptual boundary containing the essential elements that produce business value.
+It represents the organization’s identity-defining capability — the part of the enterprise that produces business value and without which the organization would no longer recognize what it sells.
 
-Within the Business Core, **extended core components** may appear, such as domain models, rules, and business outputs. These elements are tightly coupled to the business meaning and evolve together.
+Elements shown inside the core (such as domain models, rules, and business outputs) are tightly coupled and evolve together as part of the same business meaning.
 
 ---
 
@@ -32,13 +35,12 @@ Within the Business Core, **extended core components** may appear, such as domai
 
 Surrounding the Business Core are the **Orbiting Systems**.
 
-These systems directly support or operationalize the core business capability and are positioned based on **business criticality**, not technical architecture or layering.
+They support or operationalize the core capability and are positioned according to **business criticality and coupling**, not technical architecture.
 
 Examples include:
 
 - Core operational platforms
-- Systems of record closely tied to the domain
-- Strategic applications that shape how the business operates
+- Analytics & Integration
 
 Systems positioned closer to the core are harder to replace and more tightly coupled to business outcomes.
 
@@ -46,28 +48,33 @@ Systems positioned closer to the core are harder to replace and more tightly cou
 
 ### Cross-Cutting, Legacy, and External Systems
 
-Some systems enable the organization without defining or extending its core business model. These systems are intentionally positioned **outside the core groupings**.
+Some systems enable the enterprise without defining or extending the business core. These systems are intentionally positioned **outside the core groupings**.
 
 Typical examples include:
 
-- Identity & Access Management
-- Payment Gateways
-- Email & Notifications
-- External Partners
-- Legacy or transitional systems
+- Identity & Access Management (CC)
+- Web Store Catalog (CC)
+- API Management (CC)
+- Payment Gateway (E)
+- Email Notifications (E)
+- Legacy POS (L)
 
+* CC=Cross-Cutting | L=Legacy/Transitional | E=External Partner
+  
 Their placement communicates **enablement, dependency, or transition**, rather than differentiation.
 
 ---
 
-### Narrative Outcome
+### Intended Outcome
 
-Without reading a single technical specification, stakeholders can answer questions such as:
+This diagram is designed to be understood **without technical documentation**.
 
-- What capabilities define the business?
+It enables stakeholders to reason about:
+
+- What truly defines the business?
 - What belongs to the core versus what supports it?
-- Which systems are critical, and which are replaceable?
-- Where does the organization’s true complexity live?
+- Which systems are critical, which systems matter most, and which are replaceable?
+- Where does the organization’s true complexity reside?
 
 The diagram acts as a **conversation starter**, not a technical contract.
 
