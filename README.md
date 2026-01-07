@@ -72,15 +72,17 @@ If a representation can be interpreted as a technical architecture diagram, it h
 Here is a basic example of an Enterprise Orbit Diagram, including its standard nomenclature and canvas layout.
 
 - 🧭 [Canonical example](docs/examples.md)
+- 🧩 **More Examples (Coming Soon)**
 
-### More Examples (WIP)
+Additional canonical and exploratory examples will be published over time.
 
-### Resources
+_If you have a proposal for a new Enterprise Orbit Diagram example, you can either open a Pull Request or reach out at **winedcasta@hotmail.com**._
+
+## Resources
 
 - [Excalidraw File](resources/enterprise-orbit-diagram-canvas.excalidraw) _Restore the previous version via file import._
 - [Excalidraw URL](https://excalidraw.com/#json=C-BxLuszQGlaYd_wDymgN,aA4d9FqIyXrmkjobVhAnLg) _Warning: Previous work in Excalidraw may be overwritten._
 - Miro Template (Soon)
-
 
 ## Status
 
