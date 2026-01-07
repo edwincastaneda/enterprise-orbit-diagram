@@ -48,6 +48,8 @@ The Business Core is always:
 - Placed at the center
 - Visually dominant
 
+<img height="300" alt="business core" src="https://github.com/user-attachments/assets/6cb8c12a-2049-4ad7-9604-0380bf022331" />
+
 ---
 
 ## 3. Core Components (Extended Core)
@@ -58,6 +60,8 @@ They are:
 - Drawn immediately adjacent to the Business Core
 - Never optional
 - Not interchangeable without redefining the business
+
+<img height="350" alt="extended core" src="https://github.com/user-attachments/assets/4e2dea25-ffdc-4b88-b695-ce2e9790221a" />
 
 ---
 
@@ -75,6 +79,9 @@ Distance from the core visually communicates:
 - Replacement cost
 - Strategic weight
 
+
+<img height="450" alt="orbiting systems" src="https://github.com/user-attachments/assets/6ad311d4-76b2-4c0f-b023-3621ddc025bf" />
+
 ---
 
 ## 5. Groupings (Narrative Boundaries)
@@ -86,6 +93,8 @@ Rules:
 - They must never imply data ownership
 - They exist to help storytelling, not enforcement
 
+<img height="450" alt="groupings" src="https://github.com/user-attachments/assets/a1b99fc1-a4c7-4f91-9e86-da24a573a75a" />
+
 ---
 
 ## 6. Cross-Cutting and External Systems
@@ -96,6 +105,9 @@ Rules:
 - They are placed outside core and orbit groupings
 - They must never appear closer to the core than orbiting systems
 - Their role is **enablement, not differentiation**
+
+<img height="500" alt="cross-cutting & external systems" src="https://github.com/user-attachments/assets/e69aec6e-20fa-48eb-a03c-c7c726b89892" />
+
 
 ---
 
@@ -131,7 +143,7 @@ The diagram uses a **limited set of arrow types**, each with a specific narrativ
 
 Only these arrow types are allowed in canonical diagrams.
 
-<img height="200" alt="image" src="https://github.com/user-attachments/assets/ecfe2c32-b8c4-414d-9d32-57fa0f8e4401" />
+<img height="200" alt="arrow semantics" src="https://github.com/user-attachments/assets/ecfe2c32-b8c4-414d-9d32-57fa0f8e4401" />
 
 ---
 
@@ -141,27 +153,42 @@ Color is used to **reinforce meaning**, not to encode technical classifications.
 
 Fixed semantic colors are preferred for consistency:
 
-- **Light Blue (#a5d8ff) **  
+- **Light Blue (#a5d8ff)**  
   Business Core
+
+  <img height="75" alt="business core - light blue" src="https://github.com/user-attachments/assets/fe3ddb2e-1aef-4f16-85e3-b7557323e60b" />
 
 - **Lime Green (#b2f2bb)**  
   Extended Core Components
 
+  <img height="155" alt="extended core - lime green" src="https://github.com/user-attachments/assets/b0af6392-e246-4796-a22a-c41dec42c0cb" />
+
 - **Yellow (#ffec99)**  
   Orbiting Systems over Narrative Groupings (dashed boundaries)
+
+
+  <img height="75" alt="yellow - orbiting system" src="https://github.com/user-attachments/assets/6b5046f2-59af-4802-96df-d2c521914453" />
 
 - **Gray (#e9ecef)**  
   Cross-cutting Systems
 
+  <img height="75" alt="cross-cutting system - gray" src="https://github.com/user-attachments/assets/5b826125-deb2-49c3-916f-f549f7672f72" />
+
 - **Soft Red (#ffc9c9)**  
   External Systems
+
+  <img height="75" alt="external system - soft red" src="https://github.com/user-attachments/assets/d3d655c1-d101-4754-9066-dedced6169c9" />
+
 
 - **Soft Orange (#ffd8a8)**  
   Transitional or legacy elements (when explicitly needed)
 
+  <img height="75" alt="legacy systems - soft orange" src="https://github.com/user-attachments/assets/907c2fbe-8aeb-407a-a279-659cb7066851" />
+
+
 - **White (#ffffff)**  
   Neutral space / canvas
-
+  
 
 Rules:
 - Color must never be overloaded with multiple meanings
