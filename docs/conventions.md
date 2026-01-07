@@ -52,9 +52,7 @@ The Business Core is always:
 
 ## 3. Core Components (Extended Core)
 
-Some domains are so tightly coupled to the Business Core that separating them would distort reality.
-
-These are considered **Core Components**, forming an **Extended Core**.
+Some domains are so tightly coupled to the Business Core that separating them would distort reality; these are considered **Core Components**, forming an **Extended Core**.
 
 They are:
 - Drawn immediately adjacent to the Business Core
