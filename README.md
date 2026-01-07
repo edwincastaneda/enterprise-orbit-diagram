@@ -84,7 +84,7 @@ _If you have a proposal for a new Enterprise Orbit Diagram example, you can eith
 
 - [Excalidraw File](resources/enterprise-orbit-diagram-canvas.excalidraw) _Restore the previous version via file import._
 - [Excalidraw URL](https://excalidraw.com/#json=C-BxLuszQGlaYd_wDymgN,aA4d9FqIyXrmkjobVhAnLg) _Warning: Previous work in Excalidraw may be overwritten._
-- Miro Template (Soon)
+- [Miro Template](https://miro.com/miroverse/enterprise-orbit-diagram-template/?social=copy-link)
 
 ## Status
 
