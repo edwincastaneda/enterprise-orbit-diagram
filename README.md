@@ -76,8 +76,8 @@ Here is a basic example of an Enterprise Orbit Diagram, including its standard n
 
 ### Resources
 
-- [Excalidraw File](resources/enterprise-orbit-diagram-canvas.excalidraw)
-- [Excalidraw URL](https://excalidraw.com/#json=C-BxLuszQGlaYd_wDymgN,aA4d9FqIyXrmkjobVhAnLg)
+- [Excalidraw File](resources/enterprise-orbit-diagram-canvas.excalidraw) _Restore the previous version via file import._
+- [Excalidraw URL](https://excalidraw.com/#json=C-BxLuszQGlaYd_wDymgN,aA4d9FqIyXrmkjobVhAnLg) _Warning: Previous work in Excalidraw may be overwritten._
 - Miro Template (Soon)
 
 
