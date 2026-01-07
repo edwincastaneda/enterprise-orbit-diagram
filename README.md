@@ -38,7 +38,7 @@ The diagram represents enterprise systems as elements orbiting a central busines
 
 ## Documentation
 
-- 📐 Diagram conventions: [docs/conventions.md](docs/conventions.md)
+- 📐 [Diagram conventions](docs/conventions.md)
 
 ## When to use it
 
@@ -68,9 +68,18 @@ If a representation can be interpreted as a technical architecture diagram, it h
 
 ## Example
 
-A basic example of the Enterprise Orbit Diagrams can be found in the `docs/diagrams/` folder.
+Here is a basic example of an Enterprise Orbit Diagram, including its standard nomenclature and canvas layout.
 
-- 🧭 Canonical example (Basic): [docs/examples.md](docs/examples.md)
+- 🧭 [Canonical example](docs/examples.md)
+
+### More Examples (WIP)
+
+### Resources
+
+- [Excalidraw File](resources/enterprise-orbit-diagram-canvas.excalidraw)
+- [Excalidraw URL](https://excalidraw.com/#json=C-BxLuszQGlaYd_wDymgN,aA4d9FqIyXrmkjobVhAnLg)
+- Miro Template (Soon)
+
 
 ## Status
 
