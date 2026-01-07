@@ -139,25 +139,25 @@ Color is used to **reinforce meaning**, not to encode technical classifications.
 
 Fixed semantic colors are preferred for consistency:
 
-- **Light Blue**  
+- **Light Blue (#a5d8ff) **  
   Business Core
 
-- **Lime Green**  
+- **Lime Green (#b2f2bb)**  
   Extended Core Components
 
-- **Yellow**  
+- **Yellow (#ffec99)**  
   Orbiting Systems over Narrative Groupings (dashed boundaries)
 
-- **Gray**  
+- **Gray (#e9ecef)**  
   Cross-cutting Systems
 
-- **Soft Red**  
+- **Soft Red (#ffc9c9)**  
   External Systems
 
-- **Soft Orange**  
+- **Soft Orange (#ffd8a8)**  
   Transitional or legacy elements (when explicitly needed)
 
-- **White**  
+- **White (#ffffff)**  
   Neutral space / canvas
 
 
