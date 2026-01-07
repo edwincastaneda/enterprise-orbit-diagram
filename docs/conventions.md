@@ -131,7 +131,7 @@ The diagram uses a **limited set of arrow types**, each with a specific narrativ
 
 Only these arrow types are allowed in canonical diagrams.
 
-<img width="1104" height="584" alt="image" src="https://github.com/user-attachments/assets/ecfe2c32-b8c4-414d-9d32-57fa0f8e4401" />
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/ecfe2c32-b8c4-414d-9d32-57fa0f8e4401" />
 
 ---
 
