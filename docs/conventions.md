@@ -56,11 +56,6 @@ Some domains are so tightly coupled to the Business Core that separating them wo
 
 These are considered **Core Components**, forming an **Extended Core**.
 
-Typical examples:
-- Product / Information Management
-- Form or Case Management tightly bound to the domain
-- Template or Document Logic that expresses the product itself
-
 They are:
 - Drawn immediately adjacent to the Business Core
 - Never optional
@@ -88,11 +83,6 @@ Distance from the core visually communicates:
 
 Groupings represent **narrative or conceptual boundaries**, not ownership or deployment units.
 
-Examples:
-- “Sales Operations”
-- “Customer Experience”
-- “Risk & Compliance”
-
 Rules:
 - Groupings may overlap visually
 - They must never imply data ownership
@@ -103,12 +93,6 @@ Rules:
 ## 6. Cross-Cutting and External Systems
 
 Some systems enable the enterprise without belonging to any narrative group.
-
-Examples:
-- Identity & Access Management
-- Payment Gateways
-- Email / Messaging
-- External Partners
 
 Rules:
 - They are placed outside core and orbit groupings
