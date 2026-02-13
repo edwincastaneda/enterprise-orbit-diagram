@@ -3,6 +3,7 @@
 ![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
 ![Canonical](https://img.shields.io/badge/model-canonical%20v1-blue)
 ![Status](https://img.shields.io/badge/status-RC-yellow)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18634778.svg)](https://doi.org/10.5281/zenodo.18634778)
 
 
 ![EOD](https://github.com/user-attachments/assets/4ca74126-b95a-49b2-a1db-1c312473bbc7)
